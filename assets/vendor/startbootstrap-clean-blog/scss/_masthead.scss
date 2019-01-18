@@ -14,7 +14,7 @@ header.masthead {
     height: 100%;
     width: 100%;
     background-color: $gray-900;
-    opacity: 0.5;
+    opacity: 0.2;
   }
   .page-heading,
   .post-heading,
@@ -33,9 +33,9 @@ header.masthead {
       margin-top: 0;
     }
     .subheading {
-      font-size: 24px;
-      font-weight: 300;
-      line-height: 1.1;
+      font-size: 20px;
+      font-weight: 500;
+      line-height: 1.3;
       display: block;
       margin: 10px 0 0;
       @include sans-serif-font;
@@ -43,6 +43,9 @@ header.masthead {
     @media only screen and (min-width: 768px) {
       h1 {
         font-size: 80px;
+      }
+      .subheading {
+        font-size: 24px;
       }
     }
   }
@@ -62,7 +65,7 @@ header.masthead {
       @include sans-serif-font;
     }
     .meta {
-      font-size: 20px;
+      font-size: 16px;
       font-weight: 300;
       font-style: italic;
       @include serif-font;
@@ -76,6 +79,9 @@ header.masthead {
       }
       .subheading {
         font-size: 30px;
+      }
+      .meta {
+        font-size: 20px;
       }
     }
   }

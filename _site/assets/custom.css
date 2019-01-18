@@ -48,10 +48,14 @@
 
 /* Custom post header */
 header.masthead .post-heading {
-    padding: 75px 0 25px;
+    padding: 75px 0;
     @media only screen and (min-width: 768px) {
       padding: 75px 0;
     }
+}
+.post-subheading-row {
+  margin-top: 50px;
+
 }
 
 
