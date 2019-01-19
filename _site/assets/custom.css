@@ -48,19 +48,28 @@
 
 /* Custom post header */
 header.masthead .post-heading {
-    padding: 75px 0;
-    @media only screen and (min-width: 768px) {
-      padding: 75px 0;
-    }
+  padding: 125px 0 75px 0;
 }
-.post-subheading-row {
-  margin-top: 50px;
-
+.post-heading-text-box {
+  padding-left: 1.25rem;
 }
 
+/* Overlay text box on site header sections */
+.heading-text-box {
+  background-color: #005587;
+  border-radius: .3rem;
+  opacity: 0.8;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+/* Page Header*/
+.masthead-text-box {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
 
 /* Page Header Banner Thing */
-
 /* this was an attempt to reverse the overlay colors and text colors. didn't work
 header.masthead .overlay {
     opacity: .5;

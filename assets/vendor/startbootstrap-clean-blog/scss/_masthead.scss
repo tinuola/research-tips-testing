@@ -13,8 +13,8 @@ header.masthead {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: $gray-900;
-    opacity: 0.2;
+    // background-color: $gray-900;
+    // opacity: 0.2;
   }
   .page-heading,
   .post-heading,
@@ -46,6 +46,7 @@ header.masthead {
       }
       .subheading {
         font-size: 24px;
+        padding: 0 .75rem;
       }
     }
   }
